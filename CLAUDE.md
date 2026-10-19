@@ -16,7 +16,7 @@ Arcade Vault: plataforma para jugar online y competir por la mayor cantidad de p
 
 Next 16.4.2 + React 19.3. Según `AGENTS.md`, las APIs y convenciones difieren de lo que se conoce: **leer la guía relevante en `node_modules/next/dist/docs/`** (`01-app`, `02-pages`, `03-architecture`, `04-community`) antes de escribir código y respetar los avisos de deprecación.
 
-## Arquitectura / configuración no obvia
+## Arquitectura /configuración no obvia 
 
 - App Router en `app/`. El layout raíz tipa props con el helper global `LayoutProps<"/">` (sin importarlo).
 - `next.config.ts` activa `cacheComponents`, `partialPrefetching` y `experimental.agentFeedback`; `cacheComponents` cambia el modelo de caché/renderizado, así que consultar la documentación antes de usar fetch/datos dinámicos.
